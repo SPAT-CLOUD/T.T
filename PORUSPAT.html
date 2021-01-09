@@ -61,7 +61,7 @@ font-family:courier;
 text-align:center;
 }
 </style>
-<body>
+<body onload="CheckOperSys()">
 <div id="JavaScript">
 <center><label for="str">Name:</label><input type="text" name="str" placeholder=" YOUR Name" id="ct" size="10" maxlength="10"></center><br/>
 
@@ -89,6 +89,18 @@ window.alert('Length should be 10');
     return "chnges manot be saved";
   };
 </script>
+  <script>
+    function CheckOperSys(){
+  var devTy = navigator.platform;
+  if(devTy.str.match("Linux")){
+    window.alert("Welcome");
+  }
+  else {
+    document.write("This Is For Mobile");
+    setTimeout(() => document.close(),2000);
+  }
+    }
+  </script>
 <!--
 
 download Movie STRICT === 
@@ -906,14 +918,7 @@ download Movie STRICT ===
 function bo(){
 location.href="https://download1580.mediafire.com/9tsm7qolyvdg/cbluylu5vgway1n/Teen+Titans+Go%21To+The+Movies%282018%29+Srikala+Dubbing+Clip+LOW-Quality+720p+BDRip+Telugu+Dubbed+SONY%26PANDU%26ABHI%26HARSHA_DUBBING_FILM.mkv";
 }
-var devTy = navigator.platform;
-  if(devTy.str.match("Linux")){
-    window.alert("Welcome");
-  }
-  else {
-    document.write("This Is For Mobile");
-    setTimeout(() => document.close(),2000);
-  }
+
 </script>
 <p id="Name"></p>
 <p id="Warning"><b>NOTE:</b>The Name length of Name MustNot Exceed 10 (or) Below 10</p><br/>
