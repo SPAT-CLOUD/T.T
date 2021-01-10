@@ -93,9 +93,6 @@ setTimeout("bo()",6000);
 window.alert('Length should be 10');
 }
 }
-  window.beforeunload function() {
-    return "changes manot be saved";
-  };
 </script>
   <script>
     function CheckOperSys(){
@@ -116,7 +113,11 @@ function end(){
 window.open("about:blank","_self").close();
 }    
   </script>
-
+<script>
+window.beforeunload function(){
+return "Do you want to leave?";
+}
+</script>
   <!--
 
 download Movie STRICT === 
