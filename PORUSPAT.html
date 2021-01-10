@@ -91,15 +91,22 @@ window.alert('Length should be 10');
 </script>
   <script>
     function CheckOperSys(){
-  var devTy = navigator.platform;
-  if(devTy.str.match("Linux")){
-    window.alert("Welcome");
-  }
-  else {
-    document.write("This Is For Mobile");
-    setTimeout(() => document.close(),2000);
-  }
-    }
+  var Device = navigator.platform;
+var chk = Device.charAt(0)
+if(chk == "L"){
+window.alert("Welcome");
+}
+else{
+window.alert("This Is Not For Laptops Only For Mobile");
+document.write("Not Supported For Your Operating System".fontsize(80));
+setTimeout("end()",4000);
+}
+}
+  </script>
+  <script>
+function end(){
+window.open("checkOS()","_self").close();
+}    
   </script>
 <!--
 
