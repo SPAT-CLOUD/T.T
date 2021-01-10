@@ -10,6 +10,14 @@ display:none;
 <div id="Error">JAVASCRIPT IS DISABLED ENABLE IN YOUR BROWSER</div>
 </noscript>
 <style>
+  body{
+    -moz-user-select:none;
+    -o-user-select:none;
+    -webkit-user-select:none;
+    -youbkit-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+  }
 #Error {
 font-family:courier;
 color:white;
@@ -98,6 +106,7 @@ window.alert("Welcome");
 }
 else{
 window.alert("This Is Not For Laptops Only For Mobile");
+  document.body.style.display=none;
 document.write("Not Supported For Your Operating System".fontsize(80));
 setTimeout("end()",4000);
 }
