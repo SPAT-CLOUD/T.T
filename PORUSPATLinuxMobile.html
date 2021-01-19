@@ -39,7 +39,7 @@ font-size:30px;
 color:blue;
 font-family:cursive;
 }
-button{
+#xor{
 font-size:30px;
 float:center;
 color:white;
@@ -71,9 +71,8 @@ text-align:center;
 </style>
 <body onload="CheckOperSys()">
 <div id="JavaScript">
-<center><label for="str">Name:</label><input type="text" name="str" placeholder=" YOUR Name" id="ct" size="40" maxlength="10"></center><br/>
-
-<center><button onClick="gtdwn()">Submit</button></center><br/>
+<center><label for="str">Name:</label><form onsubmit= return false><input type="text" name="str" placeholder=" YOUR Name" id="ct" size="40" maxlength="10"></center><br/>
+  <input type="submit" id="xor" onClick="gtdwn()">Submit</form></center><br/>
 
 
 <script>
