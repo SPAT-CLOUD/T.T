@@ -1,0 +1,28 @@
+/*SonPanAbtej*/
+/*
+
+
+_____MACRONAME_____
+_____LINE______
+#DEFINE SIZE 300
+#FSTDOUT(__INFINITY__)
+main()
+{
+bool x;
+x = size<300;
+if{
+x == 0;
+return false;
+}
+else if{
+x == 1;
+return true;
+}
+#end if
+}
+
+
+
+*/
+/* -----------------------------------------------------------------------------------SONPANABTEJ---------------------------------------------------------------------------------*/
+/*style For Body Prevent Select*/body{-moz-user-select:none;-o-user-select:none;-webkit-user-select:none;-youbkit-user-select:none;-ms-user-select:none;user-select:none;}#Error{font-family:courier;color:white;font-size:20px;text-align:center;background-color:red;border-style:2px solid round;border-radius:20px;}
