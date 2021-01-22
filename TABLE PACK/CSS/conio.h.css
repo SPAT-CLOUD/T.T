@@ -1,0 +1,2 @@
+/*BUTTON STYLE*/button{background-color: #4CAF50; /* Green */border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 40px;}
+/*OVERALL INPUT STYLE*/input[type="number"]{font-style:italic;color:white;background-color:black;text-align:center;font-size:40px;}/*Overall Paragraph Style*/p{font-size:40px;text-align:center;color:violet;}/*UserDefined Id Style*/#result{color:green;}#new{text-align:Center;background-color:Lightgreen;Color:White;Font-size:40px;border-radius:40px;}
