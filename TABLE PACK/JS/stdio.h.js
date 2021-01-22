@@ -1,0 +1,2 @@
+/*Function Start*/function /*Function Name*/RunLinux(){/*Object Creation*/var a,x,txt,b,size,i;/*Assignig Values*/a =document.getElementById("Table").value;if(a==''||a==null){window.alert("Empty Nothing To Show");return false;}else{/*Array Declaratipn*/x = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];size =/*Finding Array Length*/ x.length;i=0;txt = "<p>";for(i=0 ; i<size ; i++){
+txt +=`<b> ${a} X ${x[i]} = ${a*x[i]}</b><br/>`;}txt +="</p>";document.getElementById("result").innerHTML=txt;}}
